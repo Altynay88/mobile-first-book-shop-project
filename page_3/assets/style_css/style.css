@@ -1,0 +1,376 @@
+/* ====== General =================*/
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+/* ====== Header and Nav Part =================*/
+header {
+    height: 50px;
+    -webkit-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    -moz-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.8em;
+}
+
+.header_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4F4F4F;
+}
+
+.fa-shopping-basket {
+    padding-left: 1.4em;
+}
+
+.fas {
+    color: #53889D;
+}
+
+.fas:hover {
+    color: #053244;
+    transition: 0.5s;
+}
+
+/*==== Jessica Mapleton =====*/
+.img_jessica {
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+
+
+.h1_jessica {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.5vh;
+    line-height: 6vh;
+    text-align: center;
+    color: #000000;
+}
+
+.p_cape_town {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vh;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #828282;
+}
+
+.flex_follow {
+    display: flex;
+    justify-content: center;
+}
+
+.div_follow {
+    margin: 1.5vh 6vh 3vh 6vh;
+}
+
+.p_follow {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vh;
+    line-height: 1.8vh;
+    text-align: center;
+    color: #4F4F4F;
+    margin-bottom: 1vh;
+}
+
+.p_number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5vh;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+/* ===== Favorite genres ====== */
+.favorite_genres {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 2vh;
+}
+
+.favorite_genres_margin {
+    margin-left: 7vw;
+}
+
+.btn_favorit_genres {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8vh;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    height: 4.3vh;
+}
+
+.btn_blue2 {
+    background: linear-gradient(to right, #53889D, #b3b9c5);
+}
+
+.btn_orange2 {
+    background: linear-gradient(to right, #ffc577, #f39474);
+}
+
+.btn_pink {
+    background: linear-gradient(to right, #f39474, #d85c7b);
+}
+
+.btn_yellow {
+    background: linear-gradient(to right, #beceee, #ffc577);
+}
+
+.btn_red {
+    background: linear-gradient(to right, #d85c7b, #ffc577);
+}
+
+
+.btn_line2,
+.btn_line3 {
+    margin-top: 0.5vh;
+}
+
+#fg_btn1 {
+    width: 20vw;
+}
+
+#fg_btn2 {
+    width: 21vw;
+}
+
+#fg_btn3 {
+    width: 35vw;
+}
+
+#fg_btn4 {
+    width: 40vw;
+}
+
+#fg_btn5 {
+    width: 22vw;
+}
+
+#fg_btn6 {
+    width: 47vw;
+}
+
+#fg_btn7 {
+    width: 26vw;
+}
+
+.links {
+    margin-top: 2vh;
+    margin-left: 7vw;
+}
+
+@media screen and (max-width: 768px) {
+    .links {
+        text-align: center;
+    }
+}
+
+.link_inner {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600px;
+    color: #D96F6E;
+    text-decoration: underline;
+}
+
+.link_inner:hover {
+    color: #8f0806;
+    transition: 0.5s;
+}
+
+/* ===== Purchased Books ====== */
+.part_headers {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 16px;
+}
+
+.purchased_books {
+    width: 100vw;
+    height: 280px;
+    overflow: auto;
+}
+
+.books {
+    display: inline-block;
+}
+
+.books_number {
+    margin-left: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: rgba(51, 51, 51, 1);
+}
+
+
+@media (max-width: 425px) {
+    .scroller {
+        float: left;
+        margin-right: -999em;
+    }
+}
+
+.scroller div {
+    float: left;
+    width: 130px;
+    height: 202px;
+    margin: 0 16px 0 0;
+}
+
+@media (max-width: 320px) {
+    .scroller div {
+        margin: 0 2vw 0 0;
+    }
+}
+
+.book_name {
+    margin: 4px 0 0;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.book_author {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: rgba(79, 79, 79, 1);
+}
+
+/* ====== Wishlist =================*/
+
+.container_purchased_books,
+.container_wishlist {
+    margin-left: 7vw;
+}
+
+@media screen and (max-width: 425px) {
+
+    .container_purchased_books,
+    .container_wishlist {
+        margin-left: 7vw;
+    }
+}
+
+.scroller_wish {
+    width: 100vw;
+    overflow: auto;
+}
+
+.wishlist {
+    float: left;
+    margin-right: -999em;
+    width: 87vw;
+}
+
+/* masonry gallery */
+.masonry_item {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 4px;
+}
+
+@media screen and (max-width: 425px) {
+    .wishlist {
+        column-count: 3;
+        column-gap: 8px;
+        margin-right: 23px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .masonry_item {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wishlist {
+        column-count: 3;
+        column-gap: 2%;
+        margin-right: 6vw;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .masonry_item {
+        width: 100%;
+        margin-bottom: 1%;
+    }
+}
+
+/* ====== Footer =================*/
+footer {
+    height: 15%;
+    margin-top: 4.5vh;
+    -webkit-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    -moz-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+}
+
+.nav_footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin-left: 6%;
+    padding-top: 1vh;
+  
+}
+
+.footer_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.65em;
+    color: #53889D;
+}

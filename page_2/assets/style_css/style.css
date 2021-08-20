@@ -1,0 +1,388 @@
+/* ====== General =================*/
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+/* ====== Header and Nav Part =================*/
+header {
+    height: 50px;
+    -webkit-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    -moz-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-shopping-basket {
+    padding-left: 1.4em;
+}
+
+.fas {
+    color: rgba(83, 136, 157, 1)
+}
+
+.fas:hover {
+    color: rgba(5, 50, 68, 1);
+    transition: 0.5s;
+}
+
+/*===== Conversations with Friends ===== */
+.img_conversations {
+    display: block;
+    margin: auto;
+}
+
+.h1_conversations {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 0.5vw;
+}
+
+@media screen and (max-width: 320px) {
+    .h1_conversations {
+        font-size: 22px;
+    }
+}
+
+.p1_conversations {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0.5vh;
+    margin-bottom: 0.6vh;
+}
+
+.p2_conversations {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    text-align: center;
+    color: rgba(130, 130, 130, 1);
+    margin-bottom: 0.8vh;
+}
+
+.price {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+/* ===Text=== */
+.text_conversations {
+    margin-left: 6vw;
+}
+
+.text_conversations {
+    /* A blurb about the book goes here. A few sentences that are nice and easy to read. Like one that’s enticing... read more */
+    /* Body L */
+    width: 87vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 320px) {
+    .text_conversations p {
+        font-size: 14px;
+    }
+}
+
+.text_conversations a {
+    color: rgba(83, 136, 157, 1);
+}
+
+/*===== 2 buttons: Add to Cart, Wishlist Parts ===== */
+.large_buttons {
+    margin: 2vh 0 2vh 18vw;
+}
+
+.large_btn {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    height: 40px;
+    width: 296px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+@media screen and (max-width: 425px) {
+    .large_buttons {
+        margin: 2vh 0 2vh 6vw;
+
+    }
+
+    .large_btn {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 834px) and (min-width: 426px) {
+
+    .large_buttons {
+        margin: 2vh 0 2vh 7vw;
+    }
+
+    .large_btn {
+        margin-bottom: 10px;
+    }
+}
+
+.button_one {
+    background: rgba(217, 111, 110, 1);
+}
+
+.button_two {
+    background: rgba(243, 164, 146, 1);
+}
+
+.button_one:hover {
+    background: rgba(224, 55, 53, 1);
+    transition: 0.5s;
+}
+
+.button_two:hover {
+    background: rgba(231, 128, 105, 1);
+    transition: 0.5s;
+}
+
+/*==== Publisher: Faber & Faber... ====*/
+.text_publisher {
+    margin-bottom: 0.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: center;
+    color: rgba(130, 130, 130, 1);
+}
+
+/* ========= Genres ========= */
+.genres {
+    margin: 3vh 0 0.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(79, 79, 79, 1);
+}
+
+.button_contemporary,
+.button_general_fiction {
+    width: 200px;
+    height: 3.5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.btn_orange {
+    background: linear-gradient(to right, #ffc577, #f39474);
+    margin-left: 36%;
+}
+
+.btn_blue {
+    background: linear-gradient(to right, #53889D, #b3b9c5);
+}
+
+@media screen and (max-width: 834px) and (min-width: 769px) {
+    .btn_orange {
+        margin-left: 27vw;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .btn_orange {
+        margin-left: 25vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .button_contemporary,
+    .button_general_fiction {
+        width: 34vw;
+    }
+
+    .btn_orange {
+        margin-left: 17vw;
+    }
+}
+
+/* ====== Share this book Part =================*/
+.social_icons {
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.social_icons_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(79, 79, 79, 1);
+}
+
+a {
+    margin-top: 10px;
+}
+
+.fab {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-left: 3%;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 7px;
+    text-align: center;
+    line-height: 40px;
+    background: rgba(83, 136, 157, 1);
+    font-size: 25px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.fab:hover {
+    background: rgba(25, 81, 104, 1);
+    transition: 0.5s;
+}
+
+/* ====== Similar Publications =================*/
+.part_headers {
+    margin-top: 35px;
+    margin-bottom: 16px;
+    margin-left: 8px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.similar_publications {
+    width: 100vw;
+    height: 305px;
+    margin-left: 8px;
+    margin-bottom: 35px;
+    overflow: auto;
+}
+
+.scroller {
+    float: left;
+    margin-right: -999em;
+}
+
+.scroller div {
+    float: left;
+    margin-right: 16px;
+    width: 143px;
+    height: 216px;
+}
+
+@media screen and (max-width: 425px) {
+    .scroller div {
+        margin-right: 4vw;
+    }
+}
+
+.book_name {
+    margin: 4px 0 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.book_author {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16.8px;
+    color: rgba(79, 79, 79, 1);
+}
+
+.book_price {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(217, 111, 110, 1);
+}
+
+/* ====== Footer =================*/
+footer {
+    height: 15%;
+    -webkit-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    -moz-box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+    box-shadow: 0px 9px 23px 0px rgba(34, 60, 80, 0.14);
+}
+
+.nav_footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin-left: 6%;
+    padding-top: 1vh;
+}
+
+.footer_img {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.footer_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.65em;
+    color: rgba(83, 136, 157, 1);
+}
